@@ -1,0 +1,36 @@
+.section-2 img{
+    width: 20%;
+    padding-right: 1em;
+}
+body{
+    background-image: linear-gradient(180deg,thistle,wheat,whitesmoke);
+}
+p{
+    font-size: 20px;
+}
+header p{
+    font-weight: 600;
+}
+span , h3{
+    color: tomato;
+}
+h5 , h1{
+    color: indigo;
+}
+
+@media (min-width:992px){
+    .section-1 , .section-2{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
